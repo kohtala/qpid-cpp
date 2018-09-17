@@ -32,7 +32,7 @@ desired, the sasl_mechanisms connection option can be set to NONE.
 
 AMQP 1.0 can be used over SSL, however the messaging client does not
 at this stage use an AMQP negotiated security layer for that
-prupose. Peers must expect SSL on the port being used (either
+purpose. Peers must expect SSL on the port being used (either
 exclusively or by being able to detect an SSL header).
 
 The container id that the client advertises when establishing the
